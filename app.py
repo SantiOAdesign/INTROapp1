@@ -19,6 +19,9 @@ with col1:
   resp = st.checkbox('Estoy de acuerdo')
   if resp:
     st.write('correcto!')
+  resp = st.checkbox(' No Estoy de acuerdo')
+  if resp:
+    st.write('Incorrecto!')
 
 with col2:
   st.subheader("Esta es la segunda columna")
